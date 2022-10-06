@@ -1,0 +1,48 @@
+
+
+	body {
+		margin: 0;
+		padding: 0;
+		background: url('../bg.jpg') repeat;
+		font: 13px/16px Georgia, "Times New Roman", Times, Serif;
+		color: #efefef;
+	}
+	
+	h1, h2, h3 {
+		font-family: Georgia, "Times New Roman", Times, Serif;
+		color: efefef;
+		text-shadow: -2px 2px #111;
+	}
+	
+	h1 {font-size: 72px; line-height: 80px; margin-bottom: 20px;}
+	h1 strong {color: #a00c0c;}
+	h2 {font-size: 28px; line-height: 34px}
+	h3 {font-size: 24px; line-height: 30px}
+	
+	#wrapper {
+		text-align: center;
+		width:960px;
+		height:600px;
+		
+		/*alings the page to the center horizontal (x)*/
+		margin-left:auto;
+		margin-right:auto;
+	
+		/*aligns the page to the center vertical (y)*/
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	
+		/*resets the offset (should be half the width and height*/
+		margin-top:-300px;
+		margin-left:-480px;
+
+	}
+	
+	.pics {margin: 60px 0 0 0; overflow: hidden;}
+	.left {margin: 0 40px 0 0;}
+	.social {margin: 30px 0 0 0;}
+	
+	
+
+
